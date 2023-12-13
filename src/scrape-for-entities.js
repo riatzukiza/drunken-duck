@@ -1,9 +1,7 @@
 // const { NlpManager } = require('node-nlp');
 const OpenAI = require('openai');
 
-const openai = new OpenAI({
-    apiKey: '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'
-});
+const openai = new OpenAI({});
 
 // Initialize NLP manager
 // const manager = new NlpManager({ languages: ['en'] });

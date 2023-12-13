@@ -1,5 +1,5 @@
+require('dotenv').config();
 const extractEntitiesFromSearch = require('./src/extract-entities-from-search');
-
 // List of search terms likely to contain ready-to-drink alcoholic beverages
 const searchTerms = ['cocktails', 'canned cocktails', 'bottled cocktails', 'ready to drink alcoholic beverages'];
 const classLabels = ['premixed alcoholic beverage brands', 'distributor', 'manufacturer'];
