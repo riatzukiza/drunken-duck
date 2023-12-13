@@ -2,10 +2,32 @@
 
 A webscraper project devoted to identifying alcoholic brand names, and their manufactures.
 
+
 # Current state
 
-What follows is what this project is meant to be, not what it is.
-It is a development plan.
+Creates a json array of objects with a brand name, manufacture, and distributor.
+
+## How to use it
+
+1. Create a `.env` file with your open ai key in it
+
+```
+OPENAI_API_KEY="YOUR KEY"
+```
+
+2. Install npm dependencies 
+    -  If you don't already have node js installed, install it.
+3. Do the thing:
+
+```bash
+npm start
+```
+
+```bash
+npm install
+```
+
+
 
 # Problem
 
