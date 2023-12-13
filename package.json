@@ -13,6 +13,7 @@
     "googlethis": "^1.8.0",
     "html-to-text": "^9.0.5",
     "json2xls": "^0.1.2",
+    "memoize": "^10.0.0",
     "node-nlp": "^4.27.0",
     "openai": "^4.20.1"
   }
